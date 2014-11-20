@@ -22,6 +22,8 @@
 		64D8BA4018EDBAB0003FDB75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D8BA1F18EDBAB0003FDB75 /* UIKit.framework */; };
 		64D8BA4818EDBAB0003FDB75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64D8BA4618EDBAB0003FDB75 /* InfoPlist.strings */; };
 		64D8BA4A18EDBAB0003FDB75 /* ActionsheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8BA4918EDBAB0003FDB75 /* ActionsheetTests.m */; };
+		64D8BA5418EDC2B8003FDB75 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D8BA5318EDC2B8003FDB75 /* Social.framework */; };
+		64D8BA5618EDC86A003FDB75 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D8BA5518EDC86A003FDB75 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		64D8BA4518EDBAB0003FDB75 /* ActionsheetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionsheetTests-Info.plist"; sourceTree = "<group>"; };
 		64D8BA4718EDBAB0003FDB75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64D8BA4918EDBAB0003FDB75 /* ActionsheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionsheetTests.m; sourceTree = "<group>"; };
+		64D8BA5318EDC2B8003FDB75 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		64D8BA5518EDC86A003FDB75 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D8BA5618EDC86A003FDB75 /* MessageUI.framework in Frameworks */,
+				64D8BA5418EDC2B8003FDB75 /* Social.framework in Frameworks */,
 				64D8BA1E18EDBAB0003FDB75 /* CoreGraphics.framework in Frameworks */,
 				64D8BA2018EDBAB0003FDB75 /* UIKit.framework in Frameworks */,
 				64D8BA1C18EDBAB0003FDB75 /* Foundation.framework in Frameworks */,
@@ -103,6 +109,8 @@
 		64D8BA1A18EDBAB0003FDB75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64D8BA5518EDC86A003FDB75 /* MessageUI.framework */,
+				64D8BA5318EDC2B8003FDB75 /* Social.framework */,
 				64D8BA1B18EDBAB0003FDB75 /* Foundation.framework */,
 				64D8BA1D18EDBAB0003FDB75 /* CoreGraphics.framework */,
 				64D8BA1F18EDBAB0003FDB75 /* UIKit.framework */,
